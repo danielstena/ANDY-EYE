@@ -1,5 +1,5 @@
 <?php require  "header.php" ?>
-
-<h1> about us </h1>
-
+<div id="wrapper">
+    <h1> about us </h1>
+</div>
 <?php require  "footer.php" ?>
