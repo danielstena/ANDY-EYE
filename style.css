@@ -1,8 +1,29 @@
+body{
+    max-width: 400px;
+}
 header{
     position: fixed;
     top:0px;
     left:0px;
     right:0px;
+    height:40px;
     text-align:center;
-    background-color: lightgray;
+    font-family: 'Krona One', sans-serif;
+
+}
+
+#linksdiv{
+    display: flex;
+    width:60%;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+#linksdiv > div{
+    margin-left:15px;
+    margin-right:15px;
+}
+a{
+    color:lightslategray;
+    text-decoration: none;
 }
