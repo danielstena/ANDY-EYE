@@ -1,13 +1,6 @@
 <?php
     require "header.php";
 ?>  
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>ANDY&EYE</title>
-</head>
-<body>
 
 <?php  
 
@@ -26,6 +19,8 @@ echo "<p></p>";
   <li>Send Andy&EYE a Message</li>
   <li>Become a global citizen and love everyone.</li>
 </ul>
+
+<div>We love the structure of walking freely with your favorite shoes in our 100% Ecologic Shoelaces.</div>
 
     <script> 
 
