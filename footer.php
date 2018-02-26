@@ -4,14 +4,15 @@
 
 <?php  
 
-echo "<h1>Andy & EYE Company</h1>";
+echo "<h1>Andy & EYE Company, 2018.</h1>";
 echo "<p></p>";
 ?>
+</div>
 </body>
 <footer>
-<div id="myDIV" class="ToDoList">
+<div id="FooterOne" class="ToDoList">
   <h2>Customers To Do list:</h2>
-  <input type="text" id="myInput" placeholder="Title...">
+  <input type="text" id="myInput" placeholder="My mind tells me...">
   <span onclick="newElement()" class="addBtn">Add</span>
 </div>
 
@@ -22,6 +23,8 @@ echo "<p></p>";
 </ul>
 
 <div>We love the structure of walking freely with your favorite shoes in our 100% Ecologic Shoelaces.</div>
+
+<div>Made in Sweden, our supplies are made out of the Northern Woods. We believe in the Sustained Development.</div>
 
 
     <script> 
@@ -62,7 +65,7 @@ function newElement() {
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
-    alert("You must write something!");
+    alert("You forgot to write something!");
   } else {
     document.getElementById("myUL").appendChild(li);
   }
