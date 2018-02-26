@@ -10,6 +10,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script src="script.js"></script>
 </head>
 <header>
@@ -31,6 +32,9 @@ session_start();
                 </div>
                 <div>
                     <a href="cart.php">CART</a>
+                </div>
+                <div>
+                    <a href="logout.php">LOG OUT</a>
                 </div>
             </div>
         </header>
