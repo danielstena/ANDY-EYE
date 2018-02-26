@@ -7,7 +7,6 @@
 echo "<h1>Andy & EYE Company, 2018.</h1>";
 echo "<p></p>";
 ?>
-</div>
 </body>
 <footer>
 <div id="FooterOne" class="ToDoList">
