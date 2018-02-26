@@ -1,5 +1,5 @@
 <?php 
-
+session_start();
 ?>
 <!DOCTYPE html>
 <html>
@@ -27,7 +27,7 @@
                     <a href="products.php">PRODUCTS</a>
                 </div>
                 <div>
-                    <a href="admin.php">ADMIN</a>
+                    <a href="adminlogin.php">ADMIN</a>
                 </div>
                 <div>
                     <a href="cart.php">CART</a>
