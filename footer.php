@@ -15,14 +15,13 @@ echo "<h1>Andy & EYE Company</h1>";
 echo "<p></p>";
 ?>
 
-<div id="myDIV" class="header">
+<div id="myDIV" class="ToDoList">
   <h2>Customers To Do list:</h2>
   <input type="text" id="myInput" placeholder="Title...">
   <span onclick="newElement()" class="addBtn">Add</span>
 </div>
 
 <ul id="myUL">
-  <li></li>
   <li>Buy our products.</li>
   <li>Send Andy&EYE a Message</li>
   <li>Become a global citizen and love everyone.</li>
