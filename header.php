@@ -16,7 +16,7 @@ session_start();
 <header>
     <div>
         <div id="logo">
-            <h1>SHOE LAZES FOR SMART PEOPLE! </h1>
+            SHOELACES FOR SMART PEOPLE
         </div>
         <div>
             <div id="linksdiv">

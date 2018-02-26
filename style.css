@@ -8,8 +8,10 @@ header{
     background-color: white;
 }
 #logo{
-    font-size:30px;
+    margin-top:20px;
+    font-size:55px;
 }
+
 #linksdiv{
     display: flex;
     width:60%;
@@ -26,7 +28,7 @@ a{
     text-decoration: none;
 }
 body{
-    margin:150px 0px 0px 0px;
+    margin:140px 0px 0px 0px;
     text-align:center;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
