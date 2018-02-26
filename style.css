@@ -1,7 +1,3 @@
-body{
-    margin-top:140px;
-    text-align:center;
-}
 header{
     position: fixed;
     top:0px;
@@ -11,7 +7,6 @@ header{
     text-align:center;
     font-family: 'Krona One', sans-serif;
 }
-
 #linksdiv{
     display: flex;
     width:60%;
@@ -26,4 +21,13 @@ header{
 a{
     color:lightslategray;
     text-decoration: none;
+}
+body{
+    margin-top:140px;
+    text-align:center;
+}
+#wrapper{
+    width:100%;
+    min-height: 500px;
+    border:1px solid black;
 }
