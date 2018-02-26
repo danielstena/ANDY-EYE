@@ -1,5 +1,7 @@
 <?php require  "header.php" ?>
 
-<h1> products </h1>
+<div id="wrapper">
+    <h1> products </h1>
+</div>
 
 <?php require  "footer.php" ?>

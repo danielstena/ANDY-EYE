@@ -7,6 +7,9 @@ header{
     text-align:center;
     background-color: white;
 }
+#logo{
+    font-size:30px;
+}
 #linksdiv{
     display: flex;
     width:60%;
@@ -23,7 +26,7 @@ a{
     text-decoration: none;
 }
 body{
-    margin-top:140px;
+    margin:150px 0px 0px 0px;
     text-align:center;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -34,7 +37,7 @@ ul {
 
 #wrapper{
     width:100%;
-    min-height: 700px;
+    min-height: 570px;
 }
 
 .miniFooter {
@@ -45,8 +48,6 @@ ul {
 
 #footer {
     text-align: center;
-    left: 0;
-    right: 0;
     margin: 0px;
    padding: 0px;
     background-color: rgba(58, 58, 58, 0.950);

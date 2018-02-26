@@ -15,11 +15,13 @@ session_start();
 </head>
 <header>
     <div>
-        <h1>SHOE LAZES FOR SMART PEOPLE! </h1>
+        <div id="logo">
+            <h1>SHOE LAZES FOR SMART PEOPLE! </h1>
+        </div>
         <div>
             <div id="linksdiv">
                 <div>
-                    <a href="#">HOME</a>
+                    <a href="index.php">HOME</a>
                 </div>
                 <div>
                     <a href="aboutus.php">ABOUT US</a>

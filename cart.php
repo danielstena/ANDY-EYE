@@ -1,5 +1,6 @@
 <?php require  "header.php" ?>
-
-<h1> cart </h1>
+<div id="wrapper">
+    <h1> cart </h1>
+</div>
 
 <?php require  "footer.php" ?>

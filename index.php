@@ -2,14 +2,9 @@
     require "header.php"
 ?>
 
-<h1>BODY!</h1>
+<div id="wrapper">
 
-
-
-
-
-
-
+</div>
 
 <?php
     require "footer.php"
