@@ -4,13 +4,12 @@
 
 <?php  
 
-echo "<h1>Andy & EYE Company, 2018.</h1>";
-echo "<p></p>";
+echo "<h1 class='miniFooter'>Andy & EYE Company, 2018.</h1>";
 ?>
 </body>
-<footer>
+<footer id="footer">
 <div id="FooterOne" class="ToDoList">
-  <h2>Customers To Do list:</h2>
+  <h2 class="column">Customers To Do list:</h2>
   <input type="text" id="myInput" placeholder="My mind tells me...">
   <span onclick="newElement()" class="addBtn">Add</span>
 </div>
@@ -20,13 +19,27 @@ echo "<p></p>";
   <li>Send Andy&EYE a Message</li>
   <li>Become a global citizen and love everyone.</li>
 </ul>
+<br/>
+    <br/>
+    <br/>
+    <br/>
+<div class="column">
+    <p>We love the structure of walking freely with your favorite shoes in our 100% Ecologic Shoelaces.
+        </p>
+        <p>Made in Sweden, our supplies are made out of the Northern Woods. We believe in the Sustained Development.</p>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+<div class="column"> <b>Social Medias</b>
+    <p><i class="fab fa-facebook-f"></i>Facebook</p>
+    <p>Instagram</p>
+    <p>LinkedIn</p>
+    <p>YouTube</p>
+</div>
 
-<div>We love the structure of walking freely with your favorite shoes in our 100% Ecologic Shoelaces.</div>
-
-<div>Made in Sweden, our supplies are made out of the Northern Woods. We believe in the Sustained Development.</div>
-
-
-    <script> 
+<script> 
 
         // Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByTagName("LI");
@@ -85,5 +98,6 @@ function newElement() {
 }
 
         </script>
+        
 </footer>
 </html>

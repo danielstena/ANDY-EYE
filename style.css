@@ -5,7 +5,8 @@ header{
     right:0px;
     height:140px;
     text-align:center;
-    font-family: 'Krona One', sans-serif;
+    
+    background-color: white;
 }
 #linksdiv{
     display: flex;
@@ -25,8 +26,35 @@ a{
 body{
     margin-top:140px;
     text-align:center;
+    margin: 0px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 #wrapper{
     width:100%;
     min-height: 500px;
+}
+
+.miniFooter {
+    background-color: rgb(180, 179, 179);
+    padding: 0px;
+    margin: 0px;
+}
+
+#footer {
+    text-align: center;
+    margin: 0px;
+   padding: 0px;
+    background-color: rgba(58, 58, 58, 0.950);
+    font-size: 20px;
+    color: black;
+    bottom: 0; right: 0; width: 100%;
+    padding-top: 1rem;
+   
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 20px;
 }
