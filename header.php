@@ -12,28 +12,28 @@
     <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
     <script src="script.js"></script>
 </head>
+<header>
+    <div>
+        <h1>SHOE LAZES FOR SMART PEOPLE! </h1>
+        <div>
+            <div id="linksdiv">
+                <div>
+                    <a href="#">HOME</a>
+                </div>
+                <div>
+                    <a href="aboutus.php">ABOUT US</a>
+                </div>
+                <div>
+                    <a href="products.php">PRODUCTS</a>
+                </div>
+                <div>
+                    <a href="admin.php">ADMIN</a>
+                </div>
+                <div>
+                    <a href="cart.php">CART</a>
+                </div>
+            </div>
+        </header>
 <body>
-    <header>
-        <div>
-            <h1>SHOE LAZES FOR SMART PEOPLE! </h1>
-        <div>
-        <div id="linksdiv">
-            <div>
-                <a href="#">HOME</a>
-            </div>
-            <div>
-                <a href="aboutus.php">ABOUT US</a>
-            </div>
-            <div>
-                <a href="products.php">PRODUCTS</a>
-            </div>
-            <div>
-                <a href="admin.php">ADMIN</a>
-            </div>
-            <div>
-                <a href="cart.php">CART</a>
-            </div>
-        </div>
-    </header>
-    <div id="wrapper">
-    
+        
+        
