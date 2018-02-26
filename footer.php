@@ -33,7 +33,7 @@ echo "<h1 class='miniFooter'>Andy & EYE Company, 2018.</h1>";
     <br/>
     <br/>
 <div class="column"> <b>Social Medias</b>
-    <p><i class="fab fa-facebook-f"></i>Facebook</p>
+    <p><i class="fab fa-facebook-f"></i></p>
     <p>Instagram</p>
     <p>LinkedIn</p>
     <p>YouTube</p>
