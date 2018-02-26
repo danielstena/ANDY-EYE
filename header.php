@@ -22,16 +22,16 @@
                 <a href="#">HOME</a>
             </div>
             <div>
-                <a href="#">ABOUT US</a>
+                <a href="aboutus.php">ABOUT US</a>
             </div>
             <div>
-                <a href="#">PRODUCTS</a>
+                <a href="products.php">PRODUCTS</a>
             </div>
             <div>
-                <a href="#">ADMIN</a>
+                <a href="admin.php">ADMIN</a>
             </div>
             <div>
-                <a href="#">CART</a>
+                <a href="cart.php">CART</a>
             </div>
         </div>
     </header>
