@@ -7,7 +7,8 @@
 echo "<h1>Andy & EYE Company</h1>";
 echo "<p></p>";
 ?>
-
+</body>
+<footer>
 <div id="myDIV" class="ToDoList">
   <h2>Customers To Do list:</h2>
   <input type="text" id="myInput" placeholder="Title...">
@@ -21,6 +22,7 @@ echo "<p></p>";
 </ul>
 
 <div>We love the structure of walking freely with your favorite shoes in our 100% Ecologic Shoelaces.</div>
+
 
     <script> 
 
@@ -81,6 +83,5 @@ function newElement() {
 }
 
         </script>
-
-</body>
+</footer>
 </html>
