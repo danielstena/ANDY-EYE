@@ -1,15 +1,15 @@
 body{
-    max-width: 400px;
+    margin-top:140px;
+    text-align:center;
 }
 header{
     position: fixed;
     top:0px;
     left:0px;
     right:0px;
-    height:40px;
+    height:140px;
     text-align:center;
     font-family: 'Krona One', sans-serif;
-
 }
 
 #linksdiv{
