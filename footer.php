@@ -1,12 +1,7 @@
-<?php
-    require "header.php";
-?>  
-
 <?php  
 
 echo "<h1 class='miniFooter'>Andy & EYE Company, 2018.</h1>";
 ?>
-</body>
 <footer id="footer">
 <div id="FooterOne" class="ToDoList">
   <h2 class="column">Customers To Do list:</h2>
@@ -97,7 +92,8 @@ function newElement() {
   }
 }
 
-        </script>
+</script>
         
+</body>
 </footer>
 </html>

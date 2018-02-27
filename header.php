@@ -1,5 +1,8 @@
 <?php 
 session_start();
+if(!isset($functions)){
+    require "functions.php";
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -18,28 +21,41 @@ session_start();
         <div id="logo">
             SHOELACES FOR SMART PEOPLE
         </div>
-        <div>
-            <div id="linksdiv">
-                <div>
-                    <a href="index.php">HOME</a>
-                </div>
-                <div>
-                    <a href="aboutus.php">ABOUT US</a>
-                </div>
-                <div>
-                    <a href="products.php">PRODUCTS</a>
-                </div>
-                <div>
-                    <a href="adminlogin.php">ADMIN</a>
-                </div>
-                <div>
-                    <a href="cart.php">CART</a>
-                </div>
-                <div>
-                    <a href="logout.php">LOG OUT</a>
-                </div>
+        <div id="linksdiv">
+            <div>
+                <a href="index.php">HOME</a>
             </div>
-        </header>
+            <div>
+                <a href="aboutus.php">ABOUT US</a>
+            </div>
+            <div>
+                <a href="products.php">PRODUCTS</a>
+            </div>
+            <div>
+                <a href="cart.php">CART</a>
+            </div>
+            <?php 
+                if(!isset($_SESSION["logged_in"])){
+                    echo "<div>
+                        <a href='login.php'>LOGIN</a>
+                    </div>";
+                }
+                if(isset($_SESSION["admin_logged_in"])){
+                    echo    "<div>
+                        <a href='admin.php'>ADMIN</a>
+                        </div>";
+                }
+                if(isset($_SESSION["logged_in"])){
+                    echo "<div>
+                            <a href='logout.php'>LOG OUT</a>
+                        </div>";
+                }   
+            ?>
+            
+        </div>
+        <hr style="border-color:red;">
+    </div>
+</header>
 <body>
         
         

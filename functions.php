@@ -1,17 +1,27 @@
 <?php
-    if(isset($_SESSION["logged_in"])){
-    header ("location: admin.php");
+  $functions = true;
+
+    if(isset($_SESSION["welcome"])){
+        echo "<script>alert('Hello ". $_SESSION["fullname"] ."! Your IP adress is: ".$_SERVER['REMOTE_ADDR']." ');</script>";
+        unset($_SESSION["welcome"]);
     }
-    function login($email, $password){
-        $user1 = "daniel";
-        $password1 = "1234";
-        if(isset($email)){
-            if($email and $password == $password1){
-                header("location: admin.php");
-                $_SESSION["logged_in"] = true;
-            }
-            else{
-                echo "Wrong username and/or password";
+
+
+    function login($users, $username, $password){
+        
+        #For loop som sedan kollar informationen användaren skrivit in mot informationen i $users arrayen
+        if(isset($username)){
+            for ($i = 0; $i < count($users); $i++){
+                if($username == $users[$i]["username"] and $password == $users[$i]["password"]){
+                    $_SESSION["fullname"] = $users[$i]["fullname"];
+                    $_SESSION["logged_in"] = true;
+                    if($users[$i]["Admin"] == "YES"){
+                        $_SESSION["admin_logged_in"] = true;
+                    } 
+                    $_SESSION["welcome"] = true;
+                    header("location:index.php");
+                
+                }
             }
         }
     }

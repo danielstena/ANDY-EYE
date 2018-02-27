@@ -1,7 +1,14 @@
-<?php require  "header.php" ?>
+<?php 
+    if(!isset($functions)){
+        require "functions.php";
+    } 
+    require "header.php";
+?>
 
 <div id="wrapper">
     <h1> products </h1>
 </div>
 
-<?php require  "footer.php" ?>
+<?php 
+    require "footer.php" 
+?>

@@ -6,6 +6,7 @@ header{
     height:140px;
     text-align:center;
     background-color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 #logo{
     margin-top:20px;
@@ -30,7 +31,6 @@ a{
 body{
     margin:140px 0px 0px 0px;
     text-align:center;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 ul {
@@ -40,8 +40,35 @@ ul {
 #wrapper{
     width:100%;
     min-height: 570px;
-}
+    background: url(img/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
+
+}
+.login{
+    height:300px;
+    width:500px;
+    margin:auto;
+    margin-top:140px;
+}
+.input{
+    height: 30px;
+    margin-bottom:10px;
+}
+.input:focus {
+    height:30px;
+    background-color: lightblue;
+}
+#password{
+    margin: 20px 0 20px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin:auto;    
+}
 .miniFooter {
     background-color: rgb(180, 179, 179);
     padding: 0px;
